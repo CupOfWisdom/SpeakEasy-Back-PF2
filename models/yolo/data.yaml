@@ -1,0 +1,23 @@
+# Paths to training and validation data
+train: 
+  - trainings/raf-db/images/train
+  - trainings/fer-2013/images/train
+  - trainings/fastjobs/images/train
+val: 
+  - trainings/raf-db/images/test
+  - trainings/fer-2013/images/test
+  - trainings/fastjobs/images/val
+
+# Number of classes
+nc: 8  # Number of emotion classes
+
+# Class names
+names:
+  0: '1'  # Emotion class 1
+  1: '2'  # Emotion class 2
+  2: '3'  # Emotion class 3
+  3: '4'  # Emotion class 4
+  4: '5'  # Emotion class 5
+  5: '6'  # Emotion class 6
+  6: '7'  # Emotion class 7
+  7: '8'  # Emotion class 7
