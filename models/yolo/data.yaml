@@ -1,12 +1,13 @@
 # Paths to training and validation data
 train: 
-  - trainings/raf-db/images/train
-  - trainings/fer-2013/images/train
-  - trainings/fastjobs/images/train
+  - /content/yolo/datasets/trainings/images/train
 val: 
-  - trainings/raf-db/images/test
-  - trainings/fer-2013/images/test
-  - trainings/fastjobs/images/val
+  - /content/yolo/datasets/trainings/images/val
+
+train_labels: 
+  - /content/yolo/datasets/trainings/labels/train
+val_labels: 
+  - /content/yolo/datasets/trainings/labels/val
 
 # Number of classes
 nc: 8  # Number of emotion classes
